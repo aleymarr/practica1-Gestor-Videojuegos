@@ -1,11 +1,11 @@
 public class VideoGame {
     
-    String id;
-    String titulo;
-    String genero;
-    String compania;
-    int fechaLanzamiento;
-    int horasJugadas;
-    String id_favorito;
+    private String id;
+    private String titulo;
+    private String genero;
+    private String compania;
+    private String fechaLanzamiento;
+    private int horasJugadas;
+    private boolean id_favorito;
 
 }

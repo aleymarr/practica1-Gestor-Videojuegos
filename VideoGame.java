@@ -8,4 +8,15 @@ public class VideoGame {
     private int horasJugadas;
     private boolean id_favorito;
 
+
+    public VideoGame(String id, String titulo, String genero, String compania, String fechaLanzamiento, int horasJugadas, boolean id_favorito) {
+        this.id = id;
+        this.titulo = titulo;
+        this.genero = genero;
+        this.compania = compania;
+        this.fechaLanzamiento = fechaLanzamiento;
+        this.horasJugadas = horasJugadas;
+        this.id_favorito = id_favorito;
+    }
+
 }
